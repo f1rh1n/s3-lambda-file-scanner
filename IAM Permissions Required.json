@@ -1,0 +1,9 @@
+{
+  "Effect": "Allow",
+  "Action": [
+    "s3:PutObjectTagging",
+    "s3:GetObject",
+    "s3:ListBucket"
+  ],
+  "Resource": "arn:aws:s3:::farhan-secure-uploads/*"
+}
